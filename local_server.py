@@ -38,7 +38,7 @@ def new_request_process(source_socks, source_address):
             received = source_socks.recv(128 * 1024)
         except OSError:
             pass
-        time.sleep(1)
+        # time.sleep(1)
 
         if received:
             buf = None
