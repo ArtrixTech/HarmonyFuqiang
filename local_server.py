@@ -1,7 +1,5 @@
 import socket
 from threading import Thread
-import time
-
 IS_DEBUG = False
 
 

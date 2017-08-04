@@ -2,7 +2,6 @@ import socket
 from threading import Thread
 from io import BytesIO
 import gzip
-
 IS_DEBUG = False
 
 
